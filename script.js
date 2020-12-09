@@ -12,6 +12,7 @@ console.log(aTextArray.length);
 	//divek generálása a tömb alapján:
 	rootE.insertAdjacentHTML("beforeend", `
 		<div class="fruit">${aTextArray[index]}</div>
+		
 	`);
 	//jelöljük ki az üsszes fruit class deivet  a getEbyId az csak a HMTL-en tud kijelölni
 }
